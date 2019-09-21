@@ -33,7 +33,7 @@ Lasso Score: 395.48
 
 RandomForest score (after tuning): 383.61
 
-Xgboost score: 356.649
+XGBoost score: 356.649
 
 # 5. Tune the models
 As XGBoost showed better results, random search was implemented to tune the hyperparameters of the model.
