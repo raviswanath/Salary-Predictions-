@@ -7,12 +7,15 @@ Examine a set of job details along with relevant credentials and make salary pre
 Summarize the data in a meaningful way.
 
 Identify patterns and outliers.
+
 Examine the distribution of the variable and relationship between features.
+
 Exploratory analysis of features and their influence on salaries.
 
 # 2. Clean the data and generate new features
 
 Remove rows where salary=0
+
 Remove rows which have less than 2% presence/ jobtype in terms of final salary 
 
 Multiple features including binning and encoding company data, creating a feature for if the company paid above industry avg. salary and binning experience level were tried upon but since none of them provided any significant uplift to the model results, they were all discarded.
@@ -27,7 +30,9 @@ The linear regression model produced a 82.67 % improvement when the MSE's were c
 Three models were created and their performance was compared against one another;
 
 Lasso Score: 395.48
+
 RandomForest score (after tuning): 383.61
+
 Xgboost score: 356.649
 
 # 5. Tune the models
