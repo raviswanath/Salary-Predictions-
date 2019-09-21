@@ -1,3 +1,8 @@
+## File guide:
+Salary predictions- EDA and model build.ipynb : jupyter notebook containing all EDA, preprocessing and model building.
+Salary_Predictions.py - Pipeline that bundles all of pre-processing, model building and tuning.
+
+
 # Problem definition: 
 
 Examine a set of job details along with relevant credentials and make salary predictions. The goal is to predict the salary of a job postings based on the given information.
