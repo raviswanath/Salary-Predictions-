@@ -1,8 +1,9 @@
 ## File guide:
 Salary predictions- EDA and model build.ipynb : jupyter notebook containing all EDA, preprocessing and model building.
+
 Salary_Predictions_pipeline.py - Pipeline that bundles all of pre-processing, model building and tuning.
 
-alary_predictions - Exploratory analysis - Notebook with only the data exploration and viz. 
+Salary_predictions - Exploratory analysis - Notebook with only the data exploration and viz. 
 
 # Problem definition: 
 
